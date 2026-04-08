@@ -51,18 +51,19 @@ export default function Hero() {
           >
             Mes projets
           </a>
-          <a
-            href="#contact"
-            className="px-6 py-3 rounded-xl border border-white/10 bg-white/5 text-white/70 text-sm hover:bg-white/10 transition-colors"
-          >
-            Me contacter
-          </a>
 <a
             href="#skills"
             className="px-6 py-3 rounded-xl border border-white/10 bg-white/5 text-white/70 text-sm hover:bg-white/10 transition-colors"
           >
             Mes skills
           </a>
+          <a
+            href="#contact"
+            className="px-6 py-3 rounded-xl border border-white/10 bg-white/5 text-white/70 text-sm hover:bg-white/10 transition-colors"
+          >
+            Me contacter
+          </a>
+
         </motion.div>
 
       </div>

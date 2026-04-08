@@ -32,9 +32,7 @@ export default function Skills() {
       {/* Content */}
       <div className="relative z-10">
         <div className="max-w-6xl mx-auto px-6 mb-10">
-          <p className="text-sm uppercase tracking-widest text-white/40 mb-2">
-            Compétences
-          </p>
+          
           <h2 className="text-4xl font-semibold text-white">Mes Skills</h2>
         </div>
 

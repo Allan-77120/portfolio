@@ -22,9 +22,7 @@ export default function Projects() {
   return (
     <section id="projects" className="px-6 py-20 bg-[#0a0a0a]">
       <div className="max-w-6xl mx-auto">
-        <p className="text-sm uppercase tracking-widest text-white/40 mb-2">
-          Projets
-        </p>
+        
         <h2 className="text-4xl font-semibold text-white mb-10">Mes Projets</h2>
 
         <div className="flex flex-col gap-10">
