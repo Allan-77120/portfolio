@@ -21,26 +21,24 @@ function SkillCard({ skill }) {
     </div>
   );
 }
-
 export default function Skills() {
   return (
     <section id="skills" className="relative py-24 bg-[#0a0a0a] overflow-hidden">
 
-
-    
-
-      {/* Content */}
       <div className="relative z-10">
         <div className="max-w-6xl mx-auto px-6 mb-10">
-          
           <h2 className="text-4xl font-semibold text-white">Mes Skills</h2>
         </div>
 
-        <div className="flex justify-center flex-wrap gap-6 px-6 max-w-6xl mx-auto">
+        {/* Carrousel horizontal */}
+        <div className="flex overflow-x-scroll space-x-6 px-6 snap-x snap-mandatory scrollbar-hide justify-center">
           {skills.map((skill, i) => (
-            <SkillCard key={i} skill={skill} />
+            <div key={i} className="flex-shrink-0 w-40 snap-center">
+              <SkillCard skill={skill} />
+            </div>
           ))}
         </div>
+
       </div>
 
     </section>
