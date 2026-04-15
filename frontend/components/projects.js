@@ -41,7 +41,7 @@ export default function Projects() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
 
                 {/* TEXTE */}
-                <div className="flex flex-col justify-center">
+                <div className="grid grid-cols-2 gap-4 md:gap-8 items-center">
                   <h3 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white">
                     {project.title}
                   </h3>
