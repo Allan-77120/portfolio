@@ -51,7 +51,7 @@ export default function Contact() {
           N’hésitez pas à me retrouver sur ces différentes plateformes :
         </motion.p>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex max-w-lg flex-col gap-4">
           {links.map((link, i) => (
             <motion.a
               key={i}
@@ -62,10 +62,10 @@ export default function Contact() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
               viewport={{ once: true }}
-              className="flex items-center justify-between px-6 py-4 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/[0.08] hover:-translate-y-1 transition duration-300 group"
+              className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-5 py-3.5 hover:-translate-y-1 hover:bg-white/[0.08] transition duration-300 group"
             >
               <div className="flex items-center gap-4">
-                <img src={link.icon} alt={link.name} className="w-6 h-6" />
+                <img src={link.icon} alt={link.name} className="h-5 w-5 sm:h-6 sm:w-6" />
                 <div>
                   <p className="text-white font-medium text-sm">{link.name}</p>
                   <p className="text-white/40 text-xs">{link.username}</p>
